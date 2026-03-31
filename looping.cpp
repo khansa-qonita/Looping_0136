@@ -21,3 +21,14 @@ while(x<=5){
     x = rand()%10;
 }
 
+cout<<"bilangan acak while yang terakhir ="<<x <<endl;
+cout<<endl;
+
+cout<<"PERULANGAN DO...WHILE"<<endl;
+x = 1 + rand()%10;
+do{
+    cout<<"bilangan acak = "<<x <<endl;
+    x = rand()%10;
+}while(x<=5);
+
+
