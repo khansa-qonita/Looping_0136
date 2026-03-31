@@ -7,9 +7,17 @@ int main( ){
     int x;
 //Perulangan dengan FOR
 //mencetak tulisan seabnyak 5 kali cout<<"PERULANGAN FOR"<<endl
-    for(int i=0;i<=4;1++){
+    for(int i=0;i<=4;i++){
         cout<<"Teknologi Informasi UMY" <<endl;
 }
 cout<<endl;
 srand(time(0));
+
+cout<<"PERULANGAN WHILE"<<endl;
+x = 1 + rand()%10;
+
+while(x<=5){
+    cout<<"bilangan acak = "<<x <<endl;
+    x = rand()%10;
+}
 
