@@ -21,17 +21,30 @@ while(x<=5){
     x = rand()%10;
 }
 
-cout<<"bilangan acak while yang terakhir ="<<x <<endl;
-cout<<endl;
+    cout<<"bilangan acak while yang terakhir ="<<x <<endl;
+    cout<<endl;
 
-cout<<"PERULANGAN DO...WHILE"<<endl;
-x = 1 + rand()%10;
-do{
-    cout<<"bilangan acak = "<<x <<endl;
-    x = rand()%10;
-}while(x<=5);
-  cout<<"bilangan acak do-while yang terakhir ="<<x<<endl;
-  cout<<endl;
+    cout<<"PERULANGAN DO...WHILE"<<endl;
+    x = 1 + rand()%10;
+    do{
+        cout<<"bilangan acak = "<<x <<endl;
+        x = rand()%10;
+    }while(x<=5);
+
+    cout<<"bilangan acak do-while yang terakhir ="<<x<<endl;
+    cout<<endl;
 }
+
+logika not
+#include <iostream>
+using namespace std;
+
+int main(){
+    float nilB,nilLM,rerata;
+    string status;
+
+    
+}
+
 
 
